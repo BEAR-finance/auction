@@ -7,7 +7,7 @@ services:
       - .:/usr/src/app/
       - /usr/src/app/node_modules
     environment:
-      CONNECTION_STRING: postgres://magiklander@postgres:5432/auction_test
+      CONNECTION_STRING: postgres://magiklander@postgres:5432/auction
       LETSENCRYPT_HOST: api.auction.decentraland.today
       PORT: 80
     networks:
